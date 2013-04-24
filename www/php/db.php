@@ -2,11 +2,11 @@
     // Подключение к базе данных mysql
     $db = mysql_connect(
     'localhost', // адрес сервера
-    'user', // пользователь
-    'password'  // пароль
+    'root', // пользователь
+    ''  // пароль
     );
     mysql_select_db(
-    'mydatabase', // имя базе данных
+    'zoo_shop', // имя базе данных
     $db
     );
 ?>
