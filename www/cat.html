@@ -1,0 +1,128 @@
+﻿<!Doctype HTML>
+<HTML>
+<HEAD>
+<script>
+	function on_select_group(id){
+		all = document.getElementsByName('tovary');
+		for(i = 0; i < all.length; i++){
+			all[i].style.display = 'none';
+		}
+		document.getElementById(id).style.display = 'block';
+	}
+</script>
+<style type='text/css'>
+#css 
+.tr
+{
+    color: red; /* Цвет текста */
+}
+#css th
+{
+    color: red; /* Цвет текста */
+}
+</style>
+<Meta charset="utf-8">
+<Title>Volnict</Title>
+</head>
+ <BODY style="background-color:YELLOW">
+  <h1 align="center">Волнистые попугайчики</h1>
+   <p><img  src="2.jpg" alt="попугай" width="20%" height="20%" class="centr">
+		<h3 style="font-size:30px; color:#00008B; ">
+			Товары для попугайчиков:
+			<select onchange = "on_select_group(this.value);">
+				<option selected></option>
+				<option value = "Развивающие игрушки">Развивающие игрушки</option>
+				<option value = "Зеркала для попугаев">Зеркала для попугаев</option>
+				<option value = "Минералы и лакомства">Минералы и лакомства</option>
+				</select>
+		</h3>
+		<div id = "Развивающие игрушки" name = "tovary" style = "display:none">
+			
+<table border="1" width="100%" cellpadding="5">
+<div class='.tr'>
+<ol>
+ <ul type="circle">
+         <tr>
+			<th><img  src="gol1.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Головоломка-капсула<: цена 1200,00</p></th>
+			<th><img  src="gol2.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Подвеска для попугаев "Карусель с ведерками"<: цена 846,00</p></th>
+			<th><img  src="gol3.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Сфера<: цена 590,00</p></th>
+		
+         <tr>
+		 <tr>
+		 	<th><img  src="gol4.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Погремушка "Чашка"<: цена 220,00</p></th>
+			<th><img  src="gol5.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Колесико для еды<: цена 1282,00</p></th>
+			<th><img  src="gol6.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Интерактивная карусель для попугаев<: цена 1199,00</p></th>
+         <tr>
+
+</ul>  
+</ol>
+</div>
+</table>
+		</div>
+		<div id = "Зеркала для попугаев" name = "tovary" style = "display:none">
+<table border="1" width="100%" cellpadding="5">
+<ol>
+ <ul type="circle">
+         <tr>
+			<th><img  src="z1.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Зеркало с жердочкой<: цена 141,00</p></th>
+			<th><img  src="z2.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Игрушка для попугаев "Зеркало со счетами"<: цена 74,00</p></th>
+			<th><img  src="z3.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Игрушка "Цветок"<: цена 246,00</p></th>
+		
+         <tr>
+		 <tr>
+		 	<th><img  src="z4.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Игрушка "Зеркало-цветок"<: цена 181,00</p></th>
+			<th><img  src="z5.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Подвеска для попугаев "Качель с зеркалом"<: цена 122,00</p></th>
+			<th><img  src="z6.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Зеркало с колокольчиком<: цена 144,00</p></th>
+         <tr>
+
+</ul>  
+</ol>
+</table>
+		</div>
+<div id = "Минералы и лакомства" name = "tovary" style = "display:none">
+  <table border="1" width="100%" cellpadding="5">
+<ol>
+  <ul type="circle">
+         <tr>
+			<th><img  src="m1.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Жердочка-минеральный камень средняя, 23 см<: цена 246,00</p></th>
+			<th><img  src="m2.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Жердочка из кальция большая<: цена 305,00</p></th>
+			<th><img  src="m3.jpg" alt="попугай" width="20%" height="20%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Fiory бисквиты для птиц с яблоком 30 г.<: цена 246,00</p></th>
+		
+         <tr>
+ </ul>  
+</ol>
+</table>
+</div>
+
+ </body>
+ </p>

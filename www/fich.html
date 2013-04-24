@@ -1,0 +1,44 @@
+﻿<!Doctype HTML>
+<HTML>
+<HEAD>
+<script>
+	function on_select_group(id){
+		all = document.getElementsByName('tovary');
+		for(i = 0; i < all.length; i++){
+			all[i].style.display = 'none';
+		}
+		document.getElementById(id).style.display = 'block';
+	}
+</script>
+<Meta charset="utf-8">
+<Title>xom</Title>
+</head>
+ <BODY style="background-color:Silver">
+  <h1 align="center">Домашнии хомячки</h1>
+   <p><img  src="g2.jpg" alt="попугай" width="20%" height="20%" class="centr">
+		<h3 style="font-size:30px; color:#00008B; ">
+			Товары для хомячков:
+			<select onchange = "on_select_group(this.value);">
+				<option selected></option>
+				<option value = "Аквариумные растения">Аквариумные растения</option>
+				</select>
+		</h3>
+		<div id = "Аквариумные растения" name = "tovary" style = "display:none">
+			
+<table border="1" width="100%" cellpadding="5">
+<ol>
+ <ul type="circle">
+         <tr>
+			<th><img  src="ak111.jpg" alt="рыбки" width="50%" height="50%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Кустовые<: цена 246,00</p></th>
+			<th><img  src="ak112.jpg" alt="рыбки" width="50%" height="50%" class="centr">
+			<a href="dostav.html" target="_self">заказать</a>
+			<p>Длинностебельные"<: цена 160,00</p></th>
+         <tr>
+</ul>  
+</ol>
+</table>
+		</div>
+ </body>
+ </p>

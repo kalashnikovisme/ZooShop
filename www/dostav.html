@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Блокировка поля</title>
+  <script>
+   function agreeForm(f) {
+    // Если поставлен флажок, снимаем блокирование кнопки
+    if (f.agree.checked) f.submit.disabled = 0
+    // В противном случае вновь блокируем кнопку
+    else f.submit.disabled = 1
+   }
+  </script>
+ </head>
+ <body  >
+  <form>
+  <fieldset>
+  <legend>Оформление заказа</legend>
+   <h5>(оплпта после доставки)</h5>
+   <p>Выберите дату заказа: <input type="date" name="calendar"></p>
+   <p>Ваше ФИО: <input name="login"></p>
+   <p>Ваш Адрес: <input name="adr"></p>
+   <p>Телефон в формате 8-xxx-xxx-xxx:  <input type="tel" name="tel" 
+   pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{3}"></p>
+   <p><input type="checkbox" name="agree" onclick="agreeForm(this.form)"> 
+    Подтвердить заказ</p>
+   <p><input type="submit"  name="submit" value="заказать" onClick=alert("Заказ отправлен") ></p>
+   </fieldset>
+  </form>
+ </body>
+</html>
+
