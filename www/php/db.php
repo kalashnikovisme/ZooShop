@@ -5,7 +5,7 @@
     'root', // пользователь
     ''  // пароль
     );
-    mysql_select_db(
+    $select = mysql_select_db(
     'zoo_shop', // имя базе данных
     $db
     );

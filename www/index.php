@@ -64,6 +64,6 @@ require_once "php/db.php";
 					</ul>
 					</p>
 				</table>
-				<center><a href="/php/index.php"><h2>Товары для питомцев</h2></a></center>
+				<center><a href="/php/products.php"><h2>Товары для питомцев</h2></a></center>
 				</body>
 				</html>
